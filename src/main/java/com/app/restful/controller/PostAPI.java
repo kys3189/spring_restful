@@ -19,7 +19,7 @@ import java.util.Optional;
 @RequestMapping("/posts/api/*")
 @RequiredArgsConstructor
 @Slf4j
-public class PostController {
+public class PostAPI {
 
     public final PostService postService;
 

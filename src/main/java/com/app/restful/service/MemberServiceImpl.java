@@ -35,7 +35,7 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public void deleteMember(Long id) {
-        memberDAO.delete(id);
         postDAO.deleteAll(id);
+        memberDAO.delete(id);
     }
 }
