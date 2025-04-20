@@ -28,6 +28,14 @@ spring:
           allowed-headers: "*"
           allow-credentials: true
 
+api:
+  base-url: "https://apis.data.go.kr/B551011/KorPetTourService"
+  base-url2: "https://api.odcloud.kr/api"
+  congestion-20171231: "/15071311/v1/uddi:a5158b81-27c7-4151-ba6c-b912a6f13d39"
+  area-based-list: "/areaBasedList"
+  service-key: "0kQ13JgE4%2FygST4%2BtRtEc%2B0HMkEgmrMjcUwRqilRPC7OgbG8JS9QR1fSyJWNU1vQtGw2L%2BxA694YYtVBRrfcgQ%3D%3D"
+  
+
 thymeleaf:
   prefix=classpath: templates/
   suffix: .html
